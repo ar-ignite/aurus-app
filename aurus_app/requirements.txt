@@ -1,0 +1,19 @@
+django>=4.2.0
+djangorestframework>=3.14.0
+djangorestframework-simplejwt>=5.2.2
+django-cors-headers>=4.0.0
+django-mptt>=0.14.0
+django-filter>=23.1
+Pillow>=9.5.0  # For image processing
+whitenoise>=6.5.0  # For static files
+python-dotenv>=1.0.0
+psycopg2-binary>=2.9.6
+django-extensions
+pydotplus
+dj-database-url
+PyPDF2
+python-docx
+pillow
+pytesseract
+together
+openai

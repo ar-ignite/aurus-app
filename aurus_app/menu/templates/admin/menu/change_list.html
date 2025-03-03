@@ -1,0 +1,25 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+    .field-indented_title {
+        white-space: nowrap;
+    }
+    .field-indented_title .mptt-item {
+        display: flex;
+        align-items: center;
+    }
+    .field-indented_title .mptt-item:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        background-image: url('{% static "admin/img/draghandle.svg" %}');
+        background-size: contain;
+        cursor: move;
+    }
+</style>
+{% endblock %}

@@ -1,0 +1,19 @@
+.field-tree_actions {
+    width: 50px;
+}
+
+.field-indented_title {
+    width: 300px;
+}
+
+.jazzmin-navigation .djn-drag-handler {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    cursor: move;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.jazzmin-navigation .djn-drag-handler:hover {
+    background-color: #e9ecef;
+}
